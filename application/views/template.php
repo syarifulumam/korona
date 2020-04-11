@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from
-scratch. This page gets rid of all links and provides the needed markup only.
--->
 <html lang="en">
 
 <head>
@@ -160,22 +156,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 	<!-- AdminLTE App -->
 	<script src="<?= base_url('assets/adminlte/dist/js/adminlte.min.js')?>"></script>
 	<script src="<?= base_url('assets/') ?>main.js"></script>
-	<!-- Page script -->
-	<script>
-		$(function () {
-			//Initialize Select2 Elements
-			$('.select2').select2()
 
-			//Datemask yyyy/mm/dd
-			$('#datemask').inputmask('yyyy/mm/dd', {
-				'placeholder': 'yyyy/mm/dd'
-			})
-			//Money Euro
-			$('[data-mask]').inputmask()
-
-		})
-
-	</script>
 </body>
 
 </html>
