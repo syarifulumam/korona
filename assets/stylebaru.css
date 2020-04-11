@@ -1,0 +1,97 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/* menu navigasi */
+nav ul li {
+	font-weight: 500;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+	color: #455eb1;
+}
+
+/* header */
+
+.penjelasan p {
+	color: #6c757d;
+}
+
+/* data total  */
+.my-card {
+	position: absolute;
+	left: 38%;
+	top: -50px;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.my-card img {
+	width: 70px;
+}
+
+/* gradient card  */
+.card-gradient {
+	background: rgb(85, 202, 248);
+	background: linear-gradient(55deg, rgba(85, 202, 248, 1) 0%, rgba(68, 86, 171, 1) 100%);
+}
+
+
+/* slider */
+.section-1 .slider-gambar {
+	border-radius: 32px;
+}
+
+
+/*pertanyaan*/
+.pertanyaan h2 button {
+	color: black;
+}
+
+.pertanyaan h2 button:hover {
+	color: #455eb1;
+}
+
+/* footer */
+footer {
+	background: rgba(0, 0, 0, 0.815);
+	padding: 50px 0px;
+	;
+	color: white;
+}
+
+
+footer p {
+	color: grey;
+}
+
+footer a {
+	text-decoration: none;
+	color: grey;
+	display: block;
+	padding: 5px 0;
+}
+
+footer a:hover {
+	color: white;
+}
+
+footer .sosmed span {
+	margin-left: 5px;
+}
+
+.copy-right {
+	background-color: #1c1d1d;
+	color: grey;
+}
+
+
+/*************/
+/** mobile **/
+/************/
+@media (max-width: 576px) {
+
+	footer div {
+		text-align: center;
+	}
+}
