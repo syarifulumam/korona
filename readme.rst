@@ -1,7 +1,11 @@
 ###################
 Demo : https://informasikorona.000webhostapp.com/home
+Vidio Demo : https://youtu.be/sZipGclwgws
 ###################
-
+*******************
+Tentang
+*******************
+Aplikasi ini dibuat untuk mengikuti lomba dari IDCamp 2020 ( https://www.dicoding.com/challenges/580 )
 *******************
 Instalasi
 *******************
